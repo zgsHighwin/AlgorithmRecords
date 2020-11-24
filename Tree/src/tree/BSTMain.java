@@ -10,7 +10,7 @@ import java.util.Comparator;
  * Description:
  * AlgorithmLearningProject 6/7/20
  */
-public class Main {
+public class BSTMain {
 
     static class Person implements Comparable<Person> {
         int age;
