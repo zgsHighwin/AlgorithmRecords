@@ -3,7 +3,6 @@ package tree;
 import printer.BinaryTrees;
 
 import java.util.Comparator;
-import java.util.Random;
 
 /**
  * url:
@@ -38,7 +37,7 @@ public class Main {
     }
 
     private static void printTree() {
-        BinarySearchTree<Person> bst1 = new BinarySearchTree<>(new Comparator<Person>() {
+        BST<Person> bst1 = new BST<>(new Comparator<Person>() {
             @Override
             public int compare(Person o1, Person o2) {
 //                if (o1.age > o2.age) return 1;
@@ -62,7 +61,7 @@ public class Main {
     }
 
     private static void preOrderTraversalTest() {
-        BinarySearchTree<Integer> searchTree = new BinarySearchTree<>();
+        BST<Integer> searchTree = new BST<>();
         searchTree.add(7);
         searchTree.add(4);
         searchTree.add(9);
