@@ -74,8 +74,14 @@ public class Main {
         searchTree.add(11);
         searchTree.add(10);
         searchTree.add(12);
-//        BinaryTrees.println(searchTree);
+        BinaryTrees.println(searchTree);
+        searchTree.remove(11);
+        BinaryTrees.println(searchTree);
+        searchTree.remove(7);
+        BinaryTrees.println(searchTree);
 //        searchTree.preOrderTraversal();
-        searchTree.preOrderTraversalNoRecursive();
+//        searchTree.postOrderTraversal();
+//        searchTree.levelOrderTraversal();
+//        System.out.println(searchTree.getTreeSize());
     }
 }
